@@ -1,0 +1,35 @@
+ul.publications>li::before
+{
+  content:"";
+}
+
+ul.publications
+{
+	list-style-type: none;
+	padding:0;
+	position:relative;
+}
+
+ul.publications li
+{
+	margin-left:160px;
+}
+
+ul.publications img
+{
+	position:absolute;
+	left:0px;
+	float:left;
+	width:150px;
+}
+
+table.cv
+{
+	border:none;
+}
+
+table.cv td
+{
+	border-left:none;
+	border-right:none;
+}
